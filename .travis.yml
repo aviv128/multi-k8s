@@ -22,7 +22,7 @@ after_success:
   - docker push aviv128/multi-nginx
   - docker push aviv128/multi-server
   - docker push aviv128/multi-worker
-  
+
 deploy:
     edge: true
     provider: elasticbeanstalk
