@@ -22,4 +22,3 @@ after_success:
   - docker push aviv/multi-nginx
   - docker push aviv/multi-server
   - docker push aviv/multi-worker
-  
